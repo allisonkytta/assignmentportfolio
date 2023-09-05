@@ -1,0 +1,102 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* colors for links */
+a:link {color: red}
+a:visited {color: darkred}
+a:hover {color: black}
+a:active {color: tan}
+
+p {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ol li{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul li{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* headings */
+h1 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 6px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+ color: black;
+  font-size: 40;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* containers */
+header{
+  background-color: #f0e9e0;
+  padding: 5px;
+}
+
+
+footer{
+  background-color: #f0e9e0;
+  text-align: center;
+}
+
+
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+
+.container {
+        background-color: #f0e9e0;
+        text-align: center;
+        width: 600px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: auto;
+      }
+
+
+/* image */
+img {
+  width: 275px;
+}
+
+.image-rounded{
+  border-radius: 5%;
+}
+
+hr {
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
